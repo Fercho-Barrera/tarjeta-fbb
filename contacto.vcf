@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Barrera;Fernando;;;
+FN:Fernando Barrera
+ORG:VisualMedica
+TITLE:
+TEL;TYPE=CELL,VOICE:+52 55 4342 7498
+EMAIL;TYPE=INTERNET,WORK:fbarrera@visualmedica.com
+URL:https://www.visualmedica.com
+ADR;TYPE=WORK:;;Insurgentes Sur 1898 Piso 20 Col. Florida;CDMX;;;Mexico
+END:VCARD

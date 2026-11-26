@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fernando Barrera</title>
+<style>
+  :root { --bg: #f4f6f8; --card: #ffffff; --ink: #14212b; --muted: #5b6b78; --accent: #0f6a86; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #0e1418; --card: #17222a; --ink: #eef3f6; --muted: #9fb0bb; --accent: #4fb3cf; }
+  }
+  :root[data-theme="dark"] { --bg: #0e1418; --card: #17222a; --ink: #eef3f6; --muted: #9fb0bb; --accent: #4fb3cf; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 420px; margin: 0 auto; padding: 32px 16px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .org { color: var(--muted); margin: 0 0 24px; }
+  .btn { display: block; width: 100%; box-sizing: border-box; text-align: center; text-decoration: none; padding: 14px 16px; margin: 0 0 12px; border-radius: 12px; font-size: 17px; font-weight: 600; }
+  .primary { background: var(--accent); color: #fff; }
+  .secondary { background: var(--card); color: var(--ink); border: 1px solid rgba(127,127,127,.25); }
+  .info { background: var(--card); border-radius: 12px; padding: 16px; margin-top: 20px; font-size: 15px; line-height: 1.6; }
+  .info a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Fernando Barrera</h1>
+  <p class="org">VisualMedica · Tecnología en imagen médica</p>
+
+  <a class="btn primary" href="contacto.vcf">Guardar contacto</a>
+  <a class="btn secondary" href="tel:+525543427498">Llamar al (55) 4342-7498</a>
+  <a class="btn secondary" href="mailto:fbarrera@visualmedica.com">Escribir a fbarrera@visualmedica.com</a>
+  <a class="btn secondary" href="tarjeta.pdf">Ver tarjeta y hoja de producto (PDF)</a>
+
+  <div class="info">
+    Insurgentes Sur 1898 Piso 20, Col. Florida, CDMX, México<br>
+    <a href="https://www.visualmedica.com">www.visualmedica.com</a>
+  </div>
+</main>
+</body>
+</html>
